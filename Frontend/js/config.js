@@ -8,7 +8,7 @@ window._config = {
         portfolioURL: 'https://khv499.github.io/Sample-POC/Frontend/app/index.html',
         signInURL: 'https://khv499.github.io/Sample-POC/Frontend/signIn.html',
         signUpURL: 'https://khv499.github.io/Sample-POC/Frontend/signUp.html',
-        forgotPasswordURL: 'https://khv499.github.io/Sample-POC/Frontend/forgotPassword.html',
-        confirmForgotPasswordURL: 'https://khv499.github.io/Sample-POC/Frontend/onfirmForgotPassword.html'
+        // forgotPasswordURL: 'https://khv499.github.io/Sample-POC/Frontend/forgotPassword.html',
+        // confirmForgotPasswordURL: 'https://khv499.github.io/Sample-POC/Frontend/onfirmForgotPassword.html'
     }   
 }
