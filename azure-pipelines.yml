@@ -21,7 +21,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'sudo npm install -g http-server'
-
 - task: CmdLine@2
   inputs:
-    script: 'http-server'
+    script: 'dir'
