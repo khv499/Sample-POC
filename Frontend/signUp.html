@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <!-- Javascript SDK-->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/signUp.css">
+
+    <script type="text/javascript">
+        function signUpButton() {
+                    alert("Write sign up function");
+                    window.location.replace(_config.urls.signInURL);
+            }
+    </script>
+</head>
+
+<body>
+    <!-- <form> -->
+    <div class="container" align="center">
+        <img src="./logo.png" alt="Arrow Products"><br />
+        <input type="text" id="usernameSignUp" placeholder="Username" pattern=".*" name="user_username" required /><br>
+        <input type="text" id="nameSignUp" placeholder="Name" pattern=".*" name="user_name" required /><br>
+        <input type="email" id="emailSignUp" placeholder="Email" pattern=".*" name="user_email" required /><br>
+        <input type="text" id="phonenumberSignUp" placeholder="Phonenumber" pattern=".*" name="user_phonenumber"
+            maxlength="12" required /><br>
+        <input type="text" id="occupationSignUp" placeholder="Occupation" pattern=".*" name="user_occupation" required /><br>
+        <select name="gender" id="genderSignUp">
+            <option value="" disabled selected>Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select><br />
+        <input type="number" id="ageSignUp" placeholder="Age" pattern=".*" name="user_age" min="18" max="60"
+            required /><br>
+        <input type="text" id="locationSignUp" placeholder="Location" pattern=".*" name="user_location" required /><br>
+        <input type="password" id="passwordSignUp" placeholder="Password" pattern=".*" name="user_password"
+            required /><br>
+        <input type="password" id="confirmPasswordSignUp" placeholder="Confirm Password" pattern=".*"
+            name="user_confirmpassword" required /><br>
+        <table align="center">
+            <tr>
+                <td><button id="signUpButton" type="button" class="btn success" onclick="signUpButton()">Sign
+                        up</button></td>
+                <td><button type="reset" class="btn danger">Reset</button></td>
+            </tr>
+        </table>
+        <h4>Already have an account? <a href="./signIn.html">Sign in</a></h4>
+    </div>
+    <!-- </form> -->
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Javascript SDKs-->
+    <title>Sign In</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/signUp.css">
+    <script type="text/javascript">
+        function signInButton() {
+                    alert("Write sign in function"); 
+                    window.location.replace(_config.urls.portfolioURL);
+            }
+    </script>
+</head>
+
+<body>
+    <div class="container" align="center">
+        <img src="./logo.png" alt="Arrow Products"><br />
+        <input type="text" id="usernameSignIn" placeholder="Username or Email" pattern=".*" name="user_username" required /><br>
+        <input type="password" id="passwordSignIn" placeholder="Password" pattern=".*" name="user_password"
+            required /><br><br>
+            <a href="./forgotPassword.html">Forgot your password?</a><br><br>
+        <table align="center">
+            <tr>
+                <td><button id="signInButton" type="button" class="btn success" onclick="signInButton()">Sign in</button></td>
+                <td><button type="reset" class="btn danger">Reset</button></td>
+            </tr>
+        </table>
+        <h4>Need an account? <a href="./signUp.html">Sign up</a></h4>
+    </div>
+</body>
+
+</html>
