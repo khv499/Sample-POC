@@ -28,4 +28,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'http-server -c-1 -p 8081'
+    script: 'http-server . &'
