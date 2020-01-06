@@ -24,4 +24,8 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'ls \n cd Frontend \n ls'
+    script: 'cd Frontend'
+
+- task: CmdLine@2
+  inputs:
+    script: 'http-server'
