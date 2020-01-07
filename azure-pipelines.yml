@@ -26,3 +26,7 @@ steps:
   inputs:
     script: 'http-server . &'
 
+- task: CmdLine@2
+  inputs:
+    script: 'ls'
+
