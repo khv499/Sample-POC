@@ -30,3 +30,7 @@ steps:
   inputs:
     script: 'ls'
 
+- task: CmdLine@2
+  inputs:
+    script: 'cd..'
+
