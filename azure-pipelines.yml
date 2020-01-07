@@ -24,12 +24,5 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'cd Frontend'
-
-- task: CmdLine@2
-  inputs:
     script: 'http-server . &'
 
-- task: CmdLine@2
-  inputs:
-    script: 'ifconfig'
