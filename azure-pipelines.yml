@@ -30,5 +30,6 @@ steps:
   inputs:
     script: 'git clone https://github.com/khv499/POC-testing.git'
 
-
-
+- task: CmdLine@2
+  inputs:
+    script: 'ls'
