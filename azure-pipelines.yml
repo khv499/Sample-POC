@@ -32,4 +32,14 @@ steps:
 
 - task: CmdLine@2
   inputs:
+    script: 'cd POC-testing'
+
+- task: CmdLine@2
+  inputs:
+    script: 'tsc'
+
+- task: CmdLine@2
+  inputs:
     script: 'ls'
+
+
